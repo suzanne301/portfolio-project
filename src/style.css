@@ -1,0 +1,35 @@
+:root {
+  --branding-color-1: #ffe265;
+  --branding-color-2: #007576;
+  --branding-color-3: #bdeeef;
+  --branding-color-4: #f07ea6;
+  --branding-color-5: #fff9f2;
+  --branding-color-6: #e5fcfb;
+  --branding-color-7: #d0f4f5;
+  --branding-color-8: #dff7f7;
+  --branding-color-9: #f27ea7;
+  --branding-color-10: #007678;
+  --branding-color-11: #eeffff;
+  --branding-color-12: #ffffff;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 800 */
+
+.suse-<uniquifier> {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 1000 */
+
+.mulish-<uniquifier> {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
