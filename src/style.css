@@ -11,25 +11,86 @@
   --branding-color-10: #007678;
   --branding-color-11: #eeffff;
   --branding-color-12: #ffffff;
+  --branding-color-13: rgb(100, 98, 98);
 }
 
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 100 to 800 */
-
-.suse-<uniquifier> {
-  font-family: "SUSE", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+:root {
+  --primary-font-family: "SUSE", sans-serif;
+  --secondary-font-family: "Mulish", sans-serif;
 }
 
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 200 to 1000 */
-
-.mulish-<uniquifier> {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--branding-color-10);
+  font-weight: bold;
+  font-family: var(--primary-font-family);
 }
+
+
+.hero {
+  background-color: var(--branding-color-8);
+  color: var(--branding-color-10);
+  font-family: var(--primary-font-family);
+  text-align: center;
+  padding: 160px 20px;
+  line-height: 1.5;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero p{
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
+  color: var(--branding-color-13);
+  font-weight: lighter;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.about-btn{
+  border: 2px solid var(--branding-color-9);
+  border-radius: 25px;
+  color: #ffffff;
+  background-color: var(--branding-color-4);
+  margin: 10px 20px;
+  padding: 8px 24px;
+}
+
+.contact-btn{
+  border: 2px solid var(--branding-color-9);
+  border-radius: 25px;
+  color: var(--branding-color-9);
+  margin: 10px 20px;
+  padding: 8px 24px;
+}
+
+.about-btn:hover {
+  border: 2px solid var(--branding-color-9);
+  background-color: var(--branding-color-8);
+  color: var(--branding-color-9);
+}
+
+.contact-btn:hover {
+  border: 2px solid var(--branding-color-9);
+  background-color: var(--branding-color-9);
+  color: var(--branding-color-12);
+}
+
+
 
