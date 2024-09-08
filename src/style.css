@@ -1,17 +1,17 @@
 :root {
-  --branding-color-1: #ffe265;
-  --branding-color-2: #007576;
-  --branding-color-3: #bdeeef;
-  --branding-color-4: #f07ea6;
+  --branding-color-1: #fdec2ce3;
+  --branding-color-2: #027d7f;
+  --branding-color-3: #f09fba;
+  --branding-color-4: #f84785;
   --branding-color-5: #fff9f2;
   --branding-color-6: #e5fcfb;
-  --branding-color-7: #d0f4f5;
+  --branding-color-7: #20a3a885;
   --branding-color-8: #dff7f7;
-  --branding-color-9: #f27ea7;
+  --branding-color-9: #f66497;
   --branding-color-10: #007678;
-  --branding-color-11: #eeffff;
+  --branding-color-11: #bae8f3;
   --branding-color-12: #ffffff;
-  --branding-color-13: rgb(100, 98, 98);
+  --branding-color-13: rgb(87, 87, 87);
 }
 
 :root {
@@ -28,8 +28,20 @@ h6 {
   color: var(--branding-color-10);
   font-weight: bold;
   font-family: var(--primary-font-family);
+  line-height: 1.5;
+}
+img {
+  width: 100%;
+  height: 200px;
 }
 
+body {
+  background: radial-gradient(circle at -8.9% 51.2%, #fdec2ce3 0%, #f66497 15.9%, #f73f7f 15.9%, #f84785 24.4%, #007678 24.5%, #027d7f 66%);
+  font-family: var(--secondary-font-family);
+  color: var(--branding-color-13);
+  line-height: 1.5;
+
+}
 
 .hero {
   background-color: var(--branding-color-8);
@@ -61,9 +73,10 @@ h6 {
   align-items: flex-start;
   width: 100%;
   margin-top: 20px;
+  font-family: var(--secondary-font-family);
 }
 
-.about-btn{
+.about-btn {
   border: 2px solid var(--branding-color-9);
   border-radius: 25px;
   color: #ffffff;
@@ -92,5 +105,55 @@ h6 {
   color: var(--branding-color-12);
 }
 
+.previous-project-banner {
+  background: linear-gradient(108.1deg, var(--branding-color-2) 11.2%, var(--branding-color-7) 88.9%);;
+  color: var(--branding-color-5);
+  text-align: center;
+  padding: 15px 0;
+}
 
+.launch-btn {
+  border: 1px solid var(--branding-color-9);
+  border-radius: 8px;
+  color: var(--branding-color-9);
+  padding: 8px 16px;
+}
+
+.launch-btn:hover {
+  border: 2px solid var(--branding-color-9);
+  background-color: var(--branding-color-9);
+  color: var(--branding-color-12);
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 50px;
+    padding: 0 8px;
+  }
+  .hero p {
+    font-size: 26px;
+    padding: 0 15px;
+  }
+  .hero a {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3, h4, h5, h6 {
+    font-size: 1.9rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .launch-btn, .launch-btn:hover {
+    font-size: 24px;
+    display: block;
+  }
+}
 
