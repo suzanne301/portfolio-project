@@ -12,6 +12,7 @@
   --branding-color-11: #bae8f3;
   --branding-color-12: #ffffff;
   --branding-color-13: rgb(87, 87, 87);
+  --branding-color-14: #fefafb;
 }
 
 :root {
@@ -138,7 +139,7 @@ body {
     margin-top: 20px;
     font-size: 26px;
   }
-
+  
   h2 {
     font-size: 3rem;
   }
@@ -146,14 +147,90 @@ body {
   h3, h4, h5, h6 {
     font-size: 1.9rem;
   }
-
+  
   p {
-    font-size: 1.6rem;
+    font-size: .8rem;
   }
-
+  
   .launch-btn, .launch-btn:hover {
     font-size: 24px;
     display: block;
   }
 }
 
+/* ABOUT PAGE */
+.about-section {
+  background-color: var(--branding-color-6);
+  border-radius: 50px 10px;
+  padding: 30px 20px;
+  
+}
+
+.about-section img {
+  height: 400px;
+  width: auto;
+  border-radius: 10px 50px;
+}
+
+
+/* CREATIVE SECTION  */
+.creative {
+  background-color: var(--branding-color-12);
+  margin-top: 50px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+
+.creative h2 {
+  font-size: 28px;
+  padding: 20px 15px;
+  color: var(--branding-color-10);
+  font-family: var(--primary-font-family);
+}
+
+.creative p {
+  font-size: 16px;
+  padding: 0 15px;
+  color: var(--branding-color-13);
+  font-family: var(--secondary-font-family);
+}
+
+
+/* ABOUT SKILLS ETC SECTION */
+.about-skills {
+  background-color: var(--branding-color-9);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+.about-skills h2 {
+  font-size: 28px;
+  padding: 20px 15px;
+  color: var(--branding-color-14);
+  font-family: var(--primary-font-family);
+}
+
+.about-skills p {
+  font-size: 16px;
+  padding: 0 15px;
+  color: var(--branding-color-8);
+  font-family: var(--secondary-font-family);
+}
+
+.about-skills .contact-btn {
+  border: 2x solid var(--branding-color-12);
+  border-radius: 25px;
+  color: var(--branding-color-12);
+  background-color: var(--branding-color-2);
+  margin: 10px 20px;
+  padding: 8px 24px;
+}
+
+.about-skills .contact-btn:hover {
+  border: 2px solid var(--branding-color-12);
+  background-color: var(--branding-color-9);
+  color: var(--branding-color-12);
+}
