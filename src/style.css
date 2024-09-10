@@ -281,7 +281,6 @@ body {
 
 .work-content img:hover {
   transform: scale(1.02);
-  opacity: 85%;
 }
 
 .container {
