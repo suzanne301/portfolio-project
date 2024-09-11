@@ -318,4 +318,19 @@ body {
   padding: 40px;
   text-align: left;
 }
+  
+.contact-hero a {
+  border: 1px solid var(--branding-color-2);
+  border-radius: 25px;
+  color: var(--branding-color-12);
+  background-color: var(--branding-color-2);
+  margin: 10px 0px;
+  padding: 8px 16px;
 
+}
+
+.contact-hero a:hover {
+  border: 2px solid var(--branding-color-2);
+  color: var(--branding-color-2);
+  background-color: var(--branding-color-3);
+}
