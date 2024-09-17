@@ -90,6 +90,30 @@ footer .contact-box a {
   align-content: center;
 }
 
+footer .signoff-content {
+  color: var(--branding-color-5);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+footer .signoff-content a {
+  color: var(--branding-color-4);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+ footer .signoff-content a:hover{
+  color: var(--branding-color-5);
+  transition: all 400ms ease-in-out;
+}
+
+footer .plain-text {
+
+}
+
+
 .nav-color {
   color: var(--branding-color-14)!important;
   
@@ -362,7 +386,7 @@ footer .contact-box a {
   background-color: var(--branding-color-3);
   border-radius: 10px;
   margin-top: 10px;
-  padding: 40px;
+  /* padding: 40px; */
   text-align: left;
 }
 
@@ -373,7 +397,7 @@ footer .contact-box a {
   background-color: var(--branding-color-2);
   margin: 10px 0px;
   padding: 8px 16px;
-  
+
 }
 
 .contact-hero a:hover {
@@ -433,5 +457,8 @@ footer .contact-box a {
   .creative h2 {
     font-size: 18px;
   }
+
+
+
 
 }

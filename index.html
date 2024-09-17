@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="Suzanne is a front-end engineer based in Scotland">
+  <title>Front-end Developer | Suzanne Paterson</title>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -22,7 +23,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light">
 
-    <a class="navbar-brand" href="/">logo</a>
+    <a class="navbar-brand" href="/" title="Homepage">logo</a>
 
     <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,10 +31,10 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="/">Home<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link nav-color" href="/about.html">About</a>
-        <a class="nav-item nav-link nav-color" href="/work.html">My Work</a>
-        <a class="nav-item nav-link nav-color" href="/contact.html">Contact</a>
+        <a class="nav-item nav-link active" href="/" title="Homepage">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link nav-color" href="/about.html" title="About Suzanne">About</a>
+        <a class="nav-item nav-link nav-color" href="/work.html" title="Suzanne's Work">My Work</a>
+        <a class="nav-item nav-link nav-color" title="Contact Suzanne" href="/contact.html">Contact</a>
       </ul>
     </div>
 
@@ -59,8 +60,8 @@
       It's my hope to develop beautiful, clean, websites in the very near future.
     </p>
     <div class="hero-buttons mt-2">
-      <a href="/about.html" class="btn about-btn">About me</a> 
-      <a href="/contact.html" class="btn contact-btn">Let's chat!</a>
+      <a href="/about.html" class="btn about-btn" title="About Suzanne">About me</a> 
+      <a href="/contact.html" class="btn contact-btn" title="Contact Suzanne">Let's chat!</a>
     </div>
   </div>
 
@@ -73,7 +74,7 @@
       
       <div class="col-lg-4">
         <div class="card m-5">
-          <img class="card-img-top img-fluid" src="/images/weather-project.jpg" alt="weather project">
+          <img class="card-img-top img-fluid" src="/images/weather-project.jpg" alt="weather project preview">
           <div class="card-body m-2">
             <h4 class="card-title mt-3">Weather Project</h4>
             <p class="card-text">Some text here relating to the skills and techniques used in creating this website.</p>
@@ -84,7 +85,7 @@
 
       <div class="col-lg-4">
         <div class="card m-5">
-          <img class="card-img-top img-fluid" src="/images/dictionary-project.jpg" alt="dictionary project">
+          <img class="card-img-top img-fluid" src="/images/dictionary-project.jpg" alt="dictionary project preview">
           <div class="card-body m-2">
             <h4 class="card-title mt-3">Dictionary Project</h4>
             <p class="card-text">Some text here relating to the skills and techniques used in creating this website.</p>
@@ -95,7 +96,7 @@
 
       <div class="col-lg-4">
         <div class="card m-5">
-          <img class="card-img-top img-fluid" src="/images/world-clock-project.jpg" alt="world clock project">
+          <img class="card-img-top img-fluid" src="/images/world-clock-project.jpg" alt="world clock project preview">
           <div class="card-body m-2">
             <h4 class="card-title mt-3">World Clock Project</h4>
             <p class="card-text">Some text here relating to the skills and techniques used in creating this website.</p>
@@ -107,18 +108,22 @@
 
     <footer>
       <div class="contact-box d-flex justify-content-between">
-        <div class="">
+        <div>
           <h3>Work Enquiry</h3>
           <p>Interested in working together?</p>
         </div>
         <a href="/contact.html" class="btn contact-btn">Let's chat!</a>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="mailto:suzannepaterson300@gmail.com" class="email-link ">suzannepaterson300@gmail.com</a>
+        <a href="mailto:suzannepaterson300@gmail.com" class="email-link" title="Email Suzanne">suzannepaterson300@gmail.com</a>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/suzanne301" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/suzanne301" target="_blank"><i class="fa-brands fa-github" title="Github profile"></i></a>
+        <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/" target="_blank" title="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <div class="container signoff-content">
+        <p class="text-center mt-5">This project was coded by <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9" target="_blank" class="plain-text">Suzanne Paterson</a>, and is open-sourced on <a href="https://github.com/suzanne301/portfolio-project" target="_blank" class="plain-text">Github</a>.</p>
       </div>
     </footer> 
 
