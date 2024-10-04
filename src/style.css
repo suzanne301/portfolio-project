@@ -109,10 +109,6 @@ footer .signoff-content a {
   transition: all 400ms ease-in-out;
 }
 
-footer .plain-text {
-
-}
-
 
 .nav-color {
   color: var(--branding-color-14)!important;
@@ -164,7 +160,7 @@ footer .plain-text {
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bolder;
 }
 
@@ -410,7 +406,7 @@ footer .plain-text {
 
 @media (max-width: 900px) {
   .hero h1 {
-    font-size: 50px;
+    font-size: 32px;
     padding: 0 8px;
   }
   .hero p {
